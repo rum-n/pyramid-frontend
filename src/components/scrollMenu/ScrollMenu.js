@@ -8,7 +8,6 @@ import rightarrow from './../../assets/rightarrow.png';
 const ScrollMenu = () => {
     const {isShowing, toggle} = useModal();
     // const timePeriods = [];
-    
     // let text = '';
     // const leftArrowClick = ()=> {
     //     let i;
