@@ -4,7 +4,6 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Home from './pages/Home';
 import Checkout from './pages/checkout/Checkout';
-// import { AuthProvider } from './Auth';
 import UserProfile from './pages/userPage/UserProfile';
 import FriendsPage from './pages/friendsPage/FriendsPage';
 import PickTime from './pages/PickTime';

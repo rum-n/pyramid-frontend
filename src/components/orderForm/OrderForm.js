@@ -9,7 +9,7 @@ import entreeMeal4 from './../../assets/entreeMeal4.png';
 import entreeMeal5 from './../../assets/entreeMeal5.png';
 import entreeMeal6 from './../../assets/entreeMeal6.png';
 
-const OrderForm = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
+const OrderForm = ({ isShowing, hide }) => (isShowing ? ReactDOM.createPortal (
     <React.Fragment>
       <div className="modal-overlay"/>
       <div className="modal-wrapper" aria-modal aria-hidden tabIndex={-1} role="dialog">
@@ -42,6 +42,6 @@ const OrderForm = ({ isShowing, hide }) => isShowing ? ReactDOM.createPortal(
         </div>
       </div>
     </React.Fragment>, document.body
-  ) : null;
+  ) : null);
   
   export default OrderForm;
