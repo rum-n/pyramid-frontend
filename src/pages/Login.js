@@ -20,10 +20,10 @@ const Login = () => {
             <form className='login-form'>
                   <input name="email" type="email" placeholder="Email or Phone number" />
                   <input name="password" type="password" placeholder="Password" />
-                  <NavLink to='/home'><button type="submit">LOG IN</button></NavLink>
+                  <NavLink to='/home'><button>LOG IN</button></NavLink>
               <p>Forgot account?</p>
               <hr id='login-divider'/>
-              <NavLink to='/signup'><button id='create-new-btn' type="submit">CREATE NEW ACCOUNT</button></NavLink>
+              <NavLink to='/signup'><button id='create-new-btn'>CREATE NEW ACCOUNT</button></NavLink>
             <p>Restaurant owner? Sign in</p>
             </form>
           </div>

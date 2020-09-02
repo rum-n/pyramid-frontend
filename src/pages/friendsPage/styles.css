@@ -36,9 +36,9 @@
 }
 
 #what-to-eat-header {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
-    margin-left: 40%;
+    margin-left: 28%;
     margin-top: 1.5rem;
 }
 
@@ -55,12 +55,29 @@
 .single-eating-wish {
     background: #E71D36;
     border-radius: 15px;
-    width: 95%;
+    width: 85%;
     margin: 0.5rem auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 0.7rem;
     cursor: pointer;
+}
+
+.wish-friends {
+    width: 30%;
+}
+
+.wish-number {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.time-and-place {
+    margin: 0;
+}
+
+.time-and-place h1 {
+    margin: 0;
 }
 
 .single-eating-wish:hover {

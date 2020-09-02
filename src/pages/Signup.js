@@ -20,7 +20,7 @@ const SignUp = () => {
             <form className='login-form'>
                   <input name="email" type="email" placeholder="Email or Phone number" />
                   <input name="password" type="password" placeholder="Password" />
-              <button type="submit">CREATE NEW ACCOUNT</button>
+              <button>CREATE NEW ACCOUNT</button>
               <p>Already have an account?</p>
               <hr id='login-divider'/>
               <NavLink to='/'><button id='create-new-btn' type="submit">LOG IN</button></NavLink>

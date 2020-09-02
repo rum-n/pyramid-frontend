@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './styles.css';
 import UserNav from '../../components/nav/UserNav';
 import SideNav from '../../components/sidenav/SideNav';
@@ -9,17 +9,17 @@ const FriendsPage = () => {
   // const [friends, setFriends] = useState([]);
   const {isShowing, toggle} = useModal();
 
-  // const url = `http://127.0.0.1:5000/listfriends/nearby`;
-  //   const fetchFriends = async () => {
-  //       const res = await fetch(url, { mode: 'no-cors', type:'GET'});
-  //       // const loginJSON = await res.json();
-  //       // setFriends(loginJSON);
-  //       console.log(res)
-  //   };
+  const url = `http://127.0.0.1:5000/listfriends/nearby`;
+    const fetchFriends = async () => {
+        const res = await fetch(url, { mode: 'no-cors', type:'GET'});
+        // const loginJSON = await res.json();
+        // setFriends(loginJSON);
+        console.log(res)
+    };
 
-  //   useEffect(() => {
-  //     fetchFriends();
-  //   },[])
+    useEffect(() => {
+      fetchFriends();
+    },[])
 
     // useEffect(() => {
     //     fetch(url, { mode: 'no-cors'}).then(res =>
@@ -37,7 +37,7 @@ const FriendsPage = () => {
         <div className='user-main'>
           <div className='purchases-header'>
             <h1>Friends</h1>
-            <h1 id='what-to-eat-header'>What Everyone Wants to Eat<br/> In Your Area</h1>
+            <h1 id='what-to-eat-header'>Grub With Them</h1>
           </div>
           <div className='friends-wrapper'>
             <div className='friends-list'>
@@ -68,34 +68,44 @@ const FriendsPage = () => {
             </div>
             <div className='what-friends-eat'>
               <div className='single-eating-wish' onClick={toggle}>
-                <p>1</p>
-                <p>Joshua O and 9 others want Chipotle</p>
-                <p>Location Time</p>
+                <div className='wish-number'>1</div>
+                <div className='wish-friends'><strong>Joshua O</strong>, <strong>Maggie Z</strong>,<strong>Adam R</strong>, <strong>Mohit B</strong>, and <strong>6 others</strong></div>
+                <div className='time-and-place'>
+                  <h1>Chipotle</h1>
+                  <p>3:00 PM @ Hyde Park</p>
+                </div>
               </div>
-              <div className='single-eating-wish'>
-                <p>1</p>
-                <p>Joshua O and 9 others want Chipotle</p>
-                <p>Location Time</p>
+              <div className='single-eating-wish' onClick={toggle}>
+                <div className='wish-number'>1</div>
+                <div className='wish-friends'><strong>Joshua O</strong>, <strong>Maggie Z</strong>,<strong>Adam R</strong>, <strong>Mohit B</strong>, and <strong>6 others</strong></div>
+                <div className='time-and-place'>
+                  <h1>Chipotle</h1>
+                  <p>3:00 PM @ Hyde Park</p>
+                </div>
               </div>
-              <div className='single-eating-wish'>
-                <p>1</p>
-                <p>Joshua O and 9 others want Chipotle</p>
-                <p>Location Time</p>
+              <div className='single-eating-wish' onClick={toggle}>
+                <div className='wish-number'>1</div>
+                <div className='wish-friends'><strong>Joshua O</strong>, <strong>Maggie Z</strong>,<strong>Adam R</strong>, <strong>Mohit B</strong>, and <strong>6 others</strong></div>
+                <div className='time-and-place'>
+                  <h1>Chipotle</h1>
+                  <p>3:00 PM @ Hyde Park</p>
+                </div>
               </div>
-              <div className='single-eating-wish'>
-                <p>1</p>
-                <p>Joshua O and 9 others want Chipotle</p>
-                <p>Location Time</p>
+              <div className='single-eating-wish' onClick={toggle}>
+                <div className='wish-number'>1</div>
+                <div className='wish-friends'><strong>Joshua O</strong>, <strong>Maggie Z</strong>,<strong>Adam R</strong>, <strong>Mohit B</strong>, and <strong>6 others</strong></div>
+                <div className='time-and-place'>
+                  <h1>Chipotle</h1>
+                  <p>3:00 PM @ Hyde Park</p>
+                </div>
               </div>
-              <div className='single-eating-wish'>
-                <p>1</p>
-                <p>Joshua O and 9 others want Chipotle</p>
-                <p>Location Time</p>
-              </div>
-              <div className='single-eating-wish'>
-                <p>1</p>
-                <p>Joshua O and 9 others want Chipotle</p>
-                <p>Location Time</p>
+              <div className='single-eating-wish' onClick={toggle}>
+                <div className='wish-number'>1</div>
+                <div className='wish-friends'><strong>Joshua O</strong>, <strong>Maggie Z</strong>,<strong>Adam R</strong>, <strong>Mohit B</strong>, and <strong>6 others</strong></div>
+                <div className='time-and-place'>
+                  <h1>Chipotle</h1>
+                  <p>3:00 PM @ Hyde Park</p>
+                </div>
               </div>
             </div>
           </div>
