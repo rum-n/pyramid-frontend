@@ -11,7 +11,7 @@ import PickTime from './pages/PickTime';
 
 function App() {
   return (
-    <AuthProvider>
+    // <AuthProvider>
       <Router>
         <Switch>
           <Route path='/' exact component={Login} />
@@ -23,7 +23,7 @@ function App() {
           <Route path='/signup' exact component={Signup} />
         </Switch>
       </Router>
-    </AuthProvider>
+    // </AuthProvider>
   );
 }
 
