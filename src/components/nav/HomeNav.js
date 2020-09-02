@@ -7,7 +7,6 @@ import profile from './../../assets/profile.png';
 import social from './../../assets/social.png';
 
 const HomeNav = () => {
-    // const { currentUser } = useContext(AuthContext);
     const currentTime= new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
 
     return (
@@ -22,11 +21,9 @@ const HomeNav = () => {
                 </div>
                 <nav>
                     <ul className='menu'>
-                        {/* <li id='home-nav-menu'><NavLink to='/location'>Harmony Trails Park</NavLink></li> */}
                         <li>Help</li>
                         <li>Settings</li>
                         <li>Logout</li>
-                        {/* {currentUser && <li><button className='logout-btn main-blue' onClick={()=>app.auth().signOut()}>Logout</button></li>} */}
                     </ul>
                     <div className='main-menu'>
                         <div className='profile-link'>
@@ -44,7 +41,7 @@ const HomeNav = () => {
                     </div>
                 </nav> 
         </header>
-    )
+    );
 };
 
 export default HomeNav;

@@ -23,10 +23,9 @@ const SideNav = () => {
             <div className='help'>
                 <p>Need help? <br/> <span>Contact us</span></p>
                 <img src={lemon} alt='lemon'/>
-            </div>
-            
+            </div>      
         </div>
-    )
+    );
 };
 
 export default SideNav;

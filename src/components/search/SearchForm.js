@@ -9,7 +9,7 @@ const SearchForm = () => {
             <input placeholder='Pickup Time' type='date'></input>
             <button className='submit-btn' type='submit'>Search</button>
         </div>
-    )
+    );
 };
 
 export default SearchForm;

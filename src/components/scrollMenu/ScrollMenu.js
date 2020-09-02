@@ -47,7 +47,7 @@ const ScrollMenu = () => {
             </div>
             <OrderForm isShowing={isShowing} hide={toggle}/>
         </div>
-    )
+    );
 };
 
 export default ScrollMenu;
