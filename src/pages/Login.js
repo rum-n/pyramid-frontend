@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import { NavLink } from 'react-router-dom';
-import { AuthContext } from "./../Auth.js";
+// import { AuthContext } from "./../Auth.js";
 import logo from './../assets/logo-slogan.png';
 import pear from './../assets/pear.svg';
 import apple from './../assets/apple.png';
@@ -9,10 +9,8 @@ import coconut from './../assets/coconut.png';
 
 const Login = () => {
 
-  const [initialData, setInitialData] = useState([{}])
-
-
-  const { currentUser } = useContext(AuthContext);
+  // const [initialData, setInitialData] = useState([{}])
+  // const { currentUser } = useContext(AuthContext);
 
   return (
     <React.Fragment>

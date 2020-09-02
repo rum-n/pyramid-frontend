@@ -7,19 +7,19 @@ import rightarrow from './../../assets/rightarrow.png';
 
 const ScrollMenu = () => {
     const {isShowing, toggle} = useModal();
-    const timePeriods = [];
+    // const timePeriods = [];
     
-    let text = '';
-    const leftArrowClick = ()=> {
-        let i;
-        for (i = 0; i < timePeriods.length; i++) {
-        text += timePeriods[i] + "PM";
-    }}
+    // let text = '';
+    // const leftArrowClick = ()=> {
+    //     let i;
+    //     for (i = 0; i < timePeriods.length; i++) {
+    //     text += timePeriods[i] + "PM";
+    // }}
 
     return (
         <div className='scrollmenu-wrapper'>
             <div className='scrollmenu-highlighted'>
-                <img src={leftarrow} alt='Left Arrow' onClick={leftArrowClick}/>
+                <img src={leftarrow} alt='Left Arrow'/>
                 <div className='single-menu'>
                     <h2 className='scrollmenu-header'>12:00 PM</h2>
                     <div className='venue-option' onClick={toggle}>Chipotle</div>

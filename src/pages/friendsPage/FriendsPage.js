@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './styles.css';
 import UserNav from '../../components/nav/UserNav';
 import SideNav from '../../components/sidenav/SideNav';
@@ -9,17 +9,17 @@ const FriendsPage = () => {
   // const [friends, setFriends] = useState([]);
   const {isShowing, toggle} = useModal();
 
-  const url = `http://127.0.0.1:5000/listfriends/nearby`;
-    const fetchFriends = async () => {
-        const res = await fetch(url, { mode: 'no-cors', type:'GET'});
-        // const loginJSON = await res.json();
-        // setFriends(loginJSON);
-        console.log(res)
-    };
+  // const url = `http://127.0.0.1:5000/listfriends/nearby`;
+  //   const fetchFriends = async () => {
+  //       const res = await fetch(url, { mode: 'no-cors', type:'GET'});
+  //       // const loginJSON = await res.json();
+  //       // setFriends(loginJSON);
+  //       console.log(res)
+  //   };
 
-    useEffect(() => {
-      fetchFriends();
-    },[])
+  //   useEffect(() => {
+  //     fetchFriends();
+  //   },[])
 
     // useEffect(() => {
     //     fetch(url, { mode: 'no-cors'}).then(res =>
