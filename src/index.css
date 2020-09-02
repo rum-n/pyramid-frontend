@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a.active,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}

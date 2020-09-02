@@ -1,0 +1,68 @@
+.sidenav {
+    width: 380px;
+    background: #F6BE4F;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.sidenav img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    background: #011627;
+    color: white;
+}
+
+.user-details h1, h2{
+    margin: 0;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    background: #011627;
+    color: white;
+    border-radius: 15px;
+    padding: 0 3rem 0 2rem;
+    margin: auto;
+}
+
+.side-menu ul {
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0;
+    line-height: 2.5rem;
+}
+
+.help{
+    margin-left: 1rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.help img {
+    width: 5.3rem;
+    height: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 0;
+}
+
+.help span{
+    color: #1663D7;
+    cursor: pointer;
+}
+
+.help span:hover{
+    color: hsla(216, 81%, 46%, 0.7);
+}

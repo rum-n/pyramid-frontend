@@ -1,0 +1,118 @@
+/* USER NAV */
+
+header {
+    display: flex;
+    align-items: center;
+    background: #F5C451;
+    height: 150px;
+}
+
+#home-header {
+    background: #F5C451;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    font-size: 0.8rem;
+    margin-right: 2rem;
+    margin-top: -2rem;
+}
+
+.menu li {
+    display: inline-block;
+    font-weight: 600;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+
+.logo{
+    margin: 2rem 7rem;
+}
+
+.logo img{
+    width: 12rem;
+}
+
+/* HOME NAV */
+
+#home-nav-menu {
+    margin-right: 10rem;
+    background: #C4C4C4;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+}
+
+.current-time {
+    cursor: default;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.current-time img {
+    width: 1.7rem;
+    margin-right: 0.5rem;
+}
+
+.current-time p {
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.current-location {
+    cursor: default;
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.current-location img {
+    height: 1.9rem;
+    margin-right: 0.5rem;
+    margin-bottom: -0.5rem;
+}
+
+.current-location p {
+    font-size: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.current-location span {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 0.5rem 5rem 0.5rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.current-location span:hover {
+    box-shadow: 1px 1px 4px 3px rgba(0,0,0,0.2);
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.main-menu p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.profile-link,
+.social-link {
+    text-align: center;
+}
+
+.profile-link:hover,
+.social-link:hover {
+    opacity: 0.7;
+}

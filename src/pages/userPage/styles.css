@@ -1,0 +1,80 @@
+.userpage-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-main {
+    margin-left: 5rem;
+    width: 100%;
+}
+
+.user-icons-wrapper {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    padding: 0 0.7rem;
+}
+
+.user-icons-wrapper img {
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+.purchases-header {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.purchases-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    width: 90%;
+}
+
+.single-purchase {
+    width: 100%;
+    background: rgba(46, 196, 182, 0.5);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    margin-top: 0.5rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.single-purchase:hover {
+    background: rgba(46, 196, 182, 0.4);
+}
+
+.single-purchase span {
+    font-weight: bold;
+}
+
+.purchase-price {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: auto 0rem;
+}
+
+.vertical-divide {
+    height: 80%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.location-name {
+    margin-bottom: 0.2rem;
+}
+.location-name span{
+    font-weight: 400;
+    margin-left: 3rem;
+}
